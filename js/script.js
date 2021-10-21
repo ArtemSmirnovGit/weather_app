@@ -38,7 +38,7 @@ let weather = {
 
             this.getView(minTempDifference,dtMinTempDifference,maxDayLight,dtMaxDayLight)
 
-        }).catch()
+        }).catch((err)=>console.log(err) )
     },
 
 
