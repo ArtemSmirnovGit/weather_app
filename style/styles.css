@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background: url('https://source.unsplash.com/1920x1080/?landscape') no-repeat center top / cover;
+    font-size: 120%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: white;
+}
+
+
+.desc {
+    background: rgba(0, 0, 0, 0.91);
+    border-radius: 30px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.77);
+    border-radius: 30px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+ label {
+    font-size: 15px;
+    color: tomato;
+}
+
+.city {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
